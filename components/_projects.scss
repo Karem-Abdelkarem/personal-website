@@ -1,0 +1,32 @@
+.projects {
+  padding-top: 11rem;
+}
+
+.projects__data {
+  padding: 0 0 11rem;
+}
+
+.projects__img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin-right: 7.5rem;
+}
+
+.projects__info {
+  align-self: center;
+}
+
+.projects__title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-24);
+}
+
+.projects__description {
+  margin: 3rem 0;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+}
+
+.projects__link {
+  color: var(--color-darker-blue);
+}

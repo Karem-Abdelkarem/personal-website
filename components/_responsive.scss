@@ -1,0 +1,144 @@
+@media (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+
+  .section {
+    grid-template-columns: 1fr;
+    padding: 8rem 2rem;
+  }
+
+  .header {
+    z-index: 0;
+  }
+
+  .header__content {
+    background-color: var(--color-background);
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 3rem;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    border-bottom: 0.1rem solid var(--color-input-border);
+    z-index: -1;
+  }
+
+  /* burger menu */
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-self: center;
+  }
+
+  .burger-bar {
+    background-color: var(--color-text);
+    width: 3rem;
+    height: 0.3rem;
+    transition: var(--transition-timing);
+  }
+
+  .header:has(.burger-menu-checkbox:checked) .burger-bar:nth-child(1) {
+    transform: translateY(7px) rotate(40deg);
+  }
+
+  .header:has(.burger-menu-checkbox:checked) .burger-bar:nth-child(2) {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .header:has(.burger-menu-checkbox:checked) .burger-bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-40deg);
+  }
+
+  .burger-menu-checkbox:checked + .navigation {
+    bottom: -65px;
+  }
+
+  .bio {
+    text-align: center;
+  }
+
+  .bio__pic-container {
+    display: none;
+  }
+
+  .h2-heading {
+    font-size: var(--font-size-30);
+  }
+
+  .skills__title {
+    font-size: var(--font-size-24);
+  }
+
+  .projects__data {
+    padding: 0 0 8rem;
+  }
+
+  .projects__title {
+    margin-top: 2rem;
+  }
+
+  .clients__opinions {
+    font-size: var(--font-size-15);
+  }
+
+  .clients__wrapper {
+    width: 80%;
+  }
+
+  .contact {
+    row-gap: 5rem;
+  }
+
+  .conatct__form {
+    grid-row: 1;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+
+  .section {
+    padding: 10rem 2rem;
+    column-gap: 3rem;
+  }
+
+  .header {
+    background-color: var(--color-background);
+  }
+
+  .bio__name {
+    font-size: var(--font-size-38);
+  }
+
+  .h2-heading {
+    font-size: var(--font-size-38);
+  }
+
+  .skills__title {
+    font-size: var(--font-size-24);
+  }
+
+  .footer {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-color: var(--color-background);
+  }
+}

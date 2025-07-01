@@ -1,0 +1,31 @@
+.container {
+  max-width: var(--container-width);
+  padding-inline: var(--gutter);
+  margin: 0 auto;
+}
+
+.video-loop {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.08;
+  z-index: -1;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: start;
+  padding: 11rem 2rem;
+  column-gap: 5rem;
+}
+
+.h2-heading {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-40);
+  text-transform: uppercase;
+  margin-bottom: 8.7rem;
+  grid-column: 1 / -1;
+}
