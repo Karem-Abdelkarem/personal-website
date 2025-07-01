@@ -1,7 +1,7 @@
-🌐 Personal Website
+# 🌐 Personal Website
 This is my personal website built with HTML, CSS, and SASS. The site is fully responsive and showcases my skills, projects, and contact information.
 
-🚀 Features
+## 🚀 Features
 • Fully responsive design
 
 • Styled using modern CSS and SASS
@@ -14,7 +14,7 @@ This is my personal website built with HTML, CSS, and SASS. The site is fully re
 
 
 
-🔧 Built With
+## 🔧 Built With
 • HTML5
 
 • CSS3
@@ -23,7 +23,7 @@ This is my personal website built with HTML, CSS, and SASS. The site is fully re
 
 • Media Queries
 
-🧠 What I learned
+## 🧠 What I learned
 • Structuring HTML semantically
 
 • Writing modular and reusable SASS code
@@ -33,11 +33,11 @@ This is my personal website built with HTML, CSS, and SASS. The site is fully re
 • Hosting and deploying projects on GitHub
 
 
-📦 How to Use
+## 📦 How to Use
 
 1. Clone the repo:
 
-git clone https://github.com/Karem-Abdelkarem/personal-website.git
+```git clone https://github.com/Karem-Abdelkarem/personal-website.git```
 
 2. Open index.html in your browser
 
